@@ -1,0 +1,70 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'raphamorim/lucario'
+
+#[[plugins]]
+#repo = 'altercation/vim-colors-solarized'
+#hook_add = '''
+#    augroup ColorScheme
+#        autocmd!
+#        autocmd VimEnter * nested colorscheme solarized
+#        let g:solarized_termcolors=256
+#        let g:solarized_termtrans=1
+#    augroup END
+#'''
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    let g:lightline = {
+    \ 'colorscheme': 'wombat'
+    \ }
+'''
+
+[[plugins]]
+repo = 'neomake/neomake'
+hook_add= '''
+    augroup make_run
+      " 保存時とenter時にlintする
+    autocmd! BufWritePost * Neomake
+
+      " インサートモードを抜けた時もlint
+      " autocmd! InsertLeave *.php Neomake
+    augroup END
+'''
+
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+hook_add = '''
+    let g:tcommentMapLeader1 = '<C-_>'
+'''
+
+[[plugins]]
+repo = 'tmhedberg/matchit'
+
+[[plugins]]
+repo = 'osyo-manga/vim-precious'
+depends = ['context_filetype.vim']
+
+[[plugins]]
+repo = 'Shougo/context_filetype.vim'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = ['toml']
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'Shougo/vimproc'
+build = ['make']
+on_source = ['unite', 'denite']
+
+[[plugins]]
+repo = 'vim-scripts/sudo.vim'
+
+[[plugins]]
+repo = 'vim-jp/vimdoc-ja'
