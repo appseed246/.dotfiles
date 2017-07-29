@@ -39,7 +39,7 @@ endif
 
 
 " --------------------- setting -----------------------
-set runtimepath+=~/.config/vim
+set runtimepath+=~/.vim
 
 " Neovim's python Provider
 let g:python_host_prog = '/usr/bin/python'
@@ -112,12 +112,11 @@ nnoremap <Tab> >>
 nnoremap <S-Tab> <<
 nnoremap <silent> <C-c><C-c> :nohlsearch<ENTER>
 nnoremap <silent> <ESC><ESC> :nohlsearch<ENTER>
-nnoremap <silent> <leader>v :split $MYVIMRC<CR>
-nnoremap <silent> <leader>d :split ~/.nvim/dein.toml<CR>
-nnoremap <silent> <leader>l :split ~/.nvim/dein_lazy.toml<CR>
+nnoremap <silent> <leader>v :split ~/.vim/init.vim<CR>
+nnoremap <silent> <leader>d :split ~/.vim/dein.toml<CR>
+nnoremap <silent> <leader>l :split ~/.vim/dein_lazy.toml<CR>
 nnoremap <silent> <leader>r :QuickRun<CR>
-nnoremap <silent> <leader>o :only!<CR>
-nnoremap <Space>e echo'hello'<CR>
+nnoremap <silent> <leader><c-o> :only!<CR>
 
 " split
 nnoremap <silent> sv :vsplit<ENTER>

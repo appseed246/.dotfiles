@@ -34,7 +34,6 @@ repo = 'Shougo/neomru.vim'
 
 [[plugins]]
 repo = 'Shougo/neoyank.vim'
-on_path = '.*'
 on_i = 1
 
 #neosnippet----------------
