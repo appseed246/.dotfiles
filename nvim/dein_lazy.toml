@@ -101,3 +101,16 @@ hook_source = '''
     \}
 '''
 
+[[plugins]]
+repo = 'shima-529/C-prototype.vim'
+on_ft = ['c', 'cpp']
+hook_add = '''
+    augroup c_proto
+        " インサートを抜けた時、保存時に
+        " プロトタイプ宣言を更新する。
+        autocmd! InsertLeave,BufWritePre,BufEnter *.c silent :CPrototypeMake
+    augroup END
+
+'''
+
+

@@ -1,229 +1,3 @@
-ls mattn/
-ls
-cd mattn/
-mv emmet-vim/ .emmet-vim/ -rf
-mv emmet-vim/ .emmet-vim/ 
-ls
-ll
-git clone https://github.com/mattn/emmet-vim.git
-ls
-ls emmet-vim/
-vdl
-ls
-..
-ls
-cd t
-cd tpope/
-ls
-cd vim-surround/
-ls
-vdl
-ls
-..
-cd mattn/
-ls
-emmet-vim/
-cd emmet-vim/
-ls
-cd plugin/
-ls
-cat emmet.vim 
-ls
-..
-cd neomake/
-ls
-cd plugin/
-ls
-cat neomake.vim 
-cat neomake.vim | less
-..
-ls
-cat README.md 
-cat README.md |less
-:q
-fg
-vi
-vdl
-fg
-vdl
-nvim
-ps
-fg
-ps
-logout
-exit
-ps
-exit
-ls
-ll
-cd .config/
-ls
-cd nvim/
-ls
-cd
-cd .local/share/nvim/shada/main.shada 
-ll
-cd w
-cd www/
-ls
-cd test/
-ls
-shttpd 
-shttpd start
-shttpd stop
-br
-sbr
-shttpd 
-shttpd start
-br
-sbr
-shttpd 
-shttpd stop
-cd
-cp .nvim/init.vim share/
-ls share/
-ls
-vi
-vdl
-fg
-ls
-;klj;lkj;klkj;lkj;lkj;lkj;lkj;lkjjlfllfalfllallfllllslcat
-;;;
-ls
-cd heroku/
-ls
-//
-..
-ll
-ls
-rm -rf vendor/ letsencrypt/ npm-debug.log 
-ls
-rm -rf heroku/
-ls
-heroku
-heroku help
-ls
-cd share/
-ls
-php test.php 
-cat test.php 
-ls
-cat test.php 
-..
-cd share/
-ls
-cat test.php 
-php test.php 
-vr
-vi _test.php
-ls
-vi test.php 
-fg
-vi input.php
-vr
-vdl
-wget https://raw.githubusercontent.com/tekkoc/PHPSnippetsCreator/master/dist/php_functions.snip
-ls
-cat php_functions.snip 
-ll
-cd 
-ls
-ll
-cd .cache/
-ls
-cd neosnippet/
-ls
-ll
-ls
-view =\=+home\=+vagrant\=+.cache\=+dein\=+repos\=+github.com\=+Shougo\=+neosnippet-snippets\=+neosnippets\=+php.snip 
-cat  =\=+home\=+vagrant\=+.cache\=+dein\=+repos\=+github.com\=+Shougo\=+neosnippet-snippets\=+neosnippets\=+php.snip 
-cat  =\=+home\=+vagrant\=+.cache\=+dein\=+repos\=+github.com\=+Shougo\=+neosnippet-snippets..\=+neosnippets\=+php.snip 
-..
-ls
-cd
-cd .local/
-l
-ls
-cd share/nvim/rplugin.vim 
-ls
-cd
-vdl
-fg
-vdl
-ll
-cd .config/nvim/
-mkdir snippets
-fg
-vr
-vdl
-cd 
-cd .cache/dein/
-ls
-cd repos/
-ls
-cd github.com/Shougo/
-l
-ls
-cd neosnippet-snippets/
-ls
-cd neosnippets/
-ls
-cd vim
-ls
-cat vital.snip 
-..
-ls
-jobs
-fg
-cd ~/share/
-ls
-mv php_functions.snip ~/.nvim/snippets/
-cd -
-ls
-view php.snip 
-ll
-cd ~/src/
-ls
-vi _test.php
-ls
-fg
-vi
-composer
-cd
-composer
-composer global require mkusher/padawan
-vi .bash_profile 
-source .bash_profile 
-vi _test.php
-nvim
-ls
-which nvim
-vi
-which vi
-emacs
-vi
-vim
-which vim
-cd /bin
-vi
-./vi
-source ~/.bash_profile 
-./vi
-cd
-nvim
-vi
-which nvim
-/bin/vi .bash_profile 
-source .bash_profile 
-heroku
-which ruby
-sudo yum install -y ruby
-heroku
-heroku version
-heroku login
-heroku --version
-npm
-wget https://cli-assets.heroku.com/branches/stable/heroku-linux-amd64.tar.gz
 tar xf heroku-linux-amd64.tar.gz 
 sed -i -e "/^export PATH$/i PATH=\$HOME/heroku/bin:\$PATH" ~/.bash_profile
 export PATH=$HOME/heroku-client/bin:$PATH
@@ -1068,4 +842,230 @@ echo "# .dotfiles" >> README.md
 ls
 git init
 ga README.md 
+sbr
+ls
+ll
+vr
+br
+git clone https://github.com/appseed246/.dotfiles.git
+vi
+cd src/clang/
+ls
+vi point3.c
+vi point3.c 
+ls
+..
+ls
+cd y-ogawa/
+ls
+ll
+cd .dotfiles/
+ls
+./dotfilesInstaller.sh 
+vi dotfilesInstaller.sh 
+ll
+ln -sf ./nvim/ ~/.vim
+vi dotfilesInstaller.sh 
+ll
+..
+ls
+ll
+vi ._test.html.swp 
+rm -i ._test.html.swp 
+ls
+ll
+cd .dotfiles/
+ln ./nvim/init.vim ~/.vimrc -sf
+vi dotfilesInstaller.sh 
+ls
+..
+;;
+ll
+cd .dotfiles/
+ls
+ln -sf ~/.dotfiles/nvim/init.vim ~/.vimrc
+vi dotfilesInstaller.sh 
+cd ~/src/clang/
+ls
+vi
+vi hello.c 
+vr
+cd
+ll
+cd .config/
+ls
+cd vim/
+ls
+vi dein.toml 
+vr
+cd 
+cd .dotfiles/
+ls
+cd nvim/
+l
+ls
+ln -sf ~/.dotfiles/nvim/dein.toml ~/dein.toml
+ln -sf ~/.dotfiles/nvim/dein_lazy.toml ~/dein_lazy.toml
+vr
+cd ~/src/clang/
+vi reverse.c
+gcc reverse.c -o reverse.exe
+ll
+./reverse.exe 
+fg
+./reverse.exe 
+vi
+vi reverse.
+vi reverse.c
+gcc reverse.c -o reverse.exe
+./reverse.exe 
+fg
+cd src/clang/
+ls
+vi arg2.c
+gcc arg2.c -o arg2.exe
+./arg2.exe 
+./arg2.exe asd kjj 123 j
+-s10 -e20
+./arg2.exe -s10 -e20
+vi arg.c
+gcc strcat.c -o strcat.exe
+./strcat.exe 
+fg
+gcc strcat.c -o strcat.exe
+./strcat.exe 
+fg
+gcc strcat.c -o strcat.exe
+./strcat.exe 
+cd src/php/
+ls
+..
+vi tsv2md.php
+..
+vi phones.tsv
+php phones.tsv > result.txt
+vi result.txt 
+php aa.tsv > result.txt
+vi result.txt 
+ls
+cd src/
+ls
+cd
+ls
+mv phones.tsv aa.tsv src/
+cd src/
+php tsv2md.php aa.tsv > result.txt
+vi result.txt 
+fg
+ls
+cat result.txt 
+ls
+vi aa.tsv 
+php tsv2md.php aa.tsv > result.txt
+vi result.txt 
+php tsv2md.php phones.tsv > result2.txt
+vi result2.txt 
+php tsv2md.php aa.tsv > result.txt 
+vi result.txt 
+vi phones.tsv 
+cd src/clang/
+vi func.c
+fg
+cd
+ls
+cd folder/
+ls
+cd test2/
+ls
+cd
+ls
+cd t2/
+ls
+vi 02.php 
+cd ~/src/clang/
+ls
+vi struct.c
+ll
+cd src/clang/l
+ls
+cd src/clang/
+ls
+vi personal2.c
+cd src/clang/
+vi personal2.c 
+gcc struc.c -o struc.exe
+./struc.exe 
+fg
+ls
+vi char.c
+cd src/clang/
+vi good.exe 
+vi ifsentence.c
+gcc ifsentence.c -o ifsentence.exe
+./ifsentence.exe 
+fg
+gcc ifsentence.c -o ifsentence.exe
+./ifsentence.exe 
+fg
+gcc ifsentence.c -o ifsentence.exe
+./ifsentence.exe 
+fg
+ls
+cd
+ls
+ll
+cd .cache/neosnippet/
+ls
+vi *c.snip
+jobs
+fg
+cd ../dein/repos/github.com/Shougo/neosnippet-snippets/
+ls
+cd snippets/
+ls
+..
+cd neosnippets/
+ls
+vi c.snip
+fg
+vicd ~/
+cd ~/src/clang/
+vi ifsentence.c 
+gcc ifsentence.c -o ifsentence.exe
+./ifsentence.exe 
+fg
+vi ifsentence.c 
+gcc ifsentence.c -o ifsentence.exe
+./ifsentence.exe 
+fg
+vi ifsentence.c 
+ls
+mkdir libs
+mv print_array_examples.c libs/
+ls
+cat :
+ls
+mkdir fundamentals
+mv * fundamentals/
+ls
+cd fundamentals/
+ls
+mv libs/ ..
+ls
+..
+cd
+ls
+cd src/clang/
+ls
+cd fundamentals/
+ls
+ls -nl
+vdl
+rm -i ifsentence*
+vi ../libs/print_array_examples.c 
+cd
+ls
+vi dein_lazy.toml 
+vr
+vi .bashrc 
 sbr

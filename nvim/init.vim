@@ -47,8 +47,8 @@ let g:python3_host_prog = '/usr/bin/python3'
 
 set noswapfile
 nnoremap <Space> <Nop>
-let mapleader = "\<Space>"
-" let mapleader = ','
+" let mapleader = "\<Space>"
+let mapleader = ','
 
 set encoding=utf8
 set fileencoding=utf8
@@ -60,6 +60,7 @@ set list "末尾の空白などの表示
 set number "行番号表示
 set cursorline " カーソルラインをハイライト
 set colorcolumn=80
+set laststatus=2
 if has('conceal')
     set conceallevel=0 concealcursor= "jsonのクオートを常に表示
 endif
@@ -113,11 +114,10 @@ nnoremap <S-Tab> <<
 nnoremap <silent> <C-c><C-c> :nohlsearch<ENTER>
 nnoremap <silent> <ESC><ESC> :nohlsearch<ENTER>
 nnoremap <silent> <leader>v :split $MYVIMRC<CR>
-nnoremap <silent> <leader>d :split ~/.nvim/dein.toml<CR>
-nnoremap <silent> <leader>l :split ~/.nvim/dein_lazy.toml<CR>
+nnoremap <silent> <leader>d :split ~/.dotfiles/nvim/dein.toml<CR>
+nnoremap <silent> <leader>l :split ~/.dotfiles/nvim/dein_lazy.toml<CR>
 nnoremap <silent> <leader>r :QuickRun<CR>
 nnoremap <silent> <leader>o :only!<CR>
-nnoremap <Space>e echo'hello'<CR>
 
 " split
 nnoremap <silent> sv :vsplit<ENTER>
