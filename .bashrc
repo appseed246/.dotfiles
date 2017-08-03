@@ -17,9 +17,9 @@ fi
 
 alias ll='ls -la'
 alias sbr='source ~/.bashrc'
-alias vr='vi ~/.vim/init.vim'
-alias vd='vi ~/.vim/dein.toml'
-alias vdl='vi ~/.vim/dein_lazy.toml'
+alias vr='vi ~/.vimrc'
+alias vd='vi ~/.dotfiles/nvim/dein.toml'
+alias vdl='vi ~/.dotfiles/nvim/dein_lazy.toml'
 alias br='vi ~/.bashrc'
 alias sd='sudo shutdown -h now'
 alias ..='cd ..'
