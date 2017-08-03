@@ -108,7 +108,7 @@ hook_add = '''
     augroup c_proto
         " インサートを抜けた時、保存時に
         " プロトタイプ宣言を更新する。
-        autocmd! InsertLeave,BufWritePre,BufEnter *.c silent :CPrototypeMake
+        autocmd! InsertLeave,BufWritePre,BufEnter *.c,*.cpp silent :CPrototypeMake
     augroup END
 
 '''
