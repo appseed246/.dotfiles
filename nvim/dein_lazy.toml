@@ -29,20 +29,13 @@ hook_source = '''
          \ "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
 '''
 
-[[plugins]]
-repo = 'Shougo/neomru.vim'
-
-[[plugins]]
-repo = 'Shougo/neoyank.vim'
-on_i = 1
 
 #neosnippet----------------
 
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
-on_i = 1
+on_event = 'InsertCharPre'
 on_ft = ['snippet']
-on_event = 'InserCharPre'
 depends = ['neosnippet-snippets', 'context_filetype.vim']
 hook_source = '''
 
@@ -65,9 +58,6 @@ hook_source = '''
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
 
-[[plugins]]
-repo = 'tpope/vim-surround'
-on_i = 1
 
 [[plugins]]
 repo = 'Shougo/unite.vim'
@@ -79,10 +69,21 @@ depends = 'neomru.vim'
 repo = 'Shougo/Denite.nvim'
 if = 'has("nvim")'
 on_cmd = 'Denite'
-hook_source = '''
-    nnoremap <leader>o :Denite file_rec<CR>
-    nnoremap <leader>f :Denite file_mru<CR>
+hook_add= '''
+    nnoremap <Space>p :Denite file_rec<CR>
+    nnoremap <Space>u :Denite -mode=normal file_mru<CR>
+    nnoremap <Space>y :Denite neoyank<CR>
+    nnoremap <Space>r :Denite -resume<CR>
+    nnoremap <Space>b :Denite -mode=normal buffer<CR>
+    nnoremap <Space>d :Denite dein<CR>
 '''
+
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+
+[[plugins]]
+repo = 'Shougo/neoyank.vim'
+on_i = 1
 
 [[plugins]] # Emmet
 repo = 'mattn/emmet-vim'
@@ -99,4 +100,3 @@ hook_source = '''
     \   'indentation': '    '
     \}
 '''
-

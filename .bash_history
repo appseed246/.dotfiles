@@ -1,583 +1,3 @@
-ls mattn/
-ls
-cd mattn/
-mv emmet-vim/ .emmet-vim/ -rf
-mv emmet-vim/ .emmet-vim/ 
-ls
-ll
-git clone https://github.com/mattn/emmet-vim.git
-ls
-ls emmet-vim/
-vdl
-ls
-..
-ls
-cd t
-cd tpope/
-ls
-cd vim-surround/
-ls
-vdl
-ls
-..
-cd mattn/
-ls
-emmet-vim/
-cd emmet-vim/
-ls
-cd plugin/
-ls
-cat emmet.vim 
-ls
-..
-cd neomake/
-ls
-cd plugin/
-ls
-cat neomake.vim 
-cat neomake.vim | less
-..
-ls
-cat README.md 
-cat README.md |less
-:q
-fg
-vi
-vdl
-fg
-vdl
-nvim
-ps
-fg
-ps
-logout
-exit
-ps
-exit
-ls
-ll
-cd .config/
-ls
-cd nvim/
-ls
-cd
-cd .local/share/nvim/shada/main.shada 
-ll
-cd w
-cd www/
-ls
-cd test/
-ls
-shttpd 
-shttpd start
-shttpd stop
-br
-sbr
-shttpd 
-shttpd start
-br
-sbr
-shttpd 
-shttpd stop
-cd
-cp .nvim/init.vim share/
-ls share/
-ls
-vi
-vdl
-fg
-ls
-;klj;lkj;klkj;lkj;lkj;lkj;lkj;lkjjlfllfalfllallfllllslcat
-;;;
-ls
-cd heroku/
-ls
-//
-..
-ll
-ls
-rm -rf vendor/ letsencrypt/ npm-debug.log 
-ls
-rm -rf heroku/
-ls
-heroku
-heroku help
-ls
-cd share/
-ls
-php test.php 
-cat test.php 
-ls
-cat test.php 
-..
-cd share/
-ls
-cat test.php 
-php test.php 
-vr
-vi _test.php
-ls
-vi test.php 
-fg
-vi input.php
-vr
-vdl
-wget https://raw.githubusercontent.com/tekkoc/PHPSnippetsCreator/master/dist/php_functions.snip
-ls
-cat php_functions.snip 
-ll
-cd 
-ls
-ll
-cd .cache/
-ls
-cd neosnippet/
-ls
-ll
-ls
-view =\=+home\=+vagrant\=+.cache\=+dein\=+repos\=+github.com\=+Shougo\=+neosnippet-snippets\=+neosnippets\=+php.snip 
-cat  =\=+home\=+vagrant\=+.cache\=+dein\=+repos\=+github.com\=+Shougo\=+neosnippet-snippets\=+neosnippets\=+php.snip 
-cat  =\=+home\=+vagrant\=+.cache\=+dein\=+repos\=+github.com\=+Shougo\=+neosnippet-snippets..\=+neosnippets\=+php.snip 
-..
-ls
-cd
-cd .local/
-l
-ls
-cd share/nvim/rplugin.vim 
-ls
-cd
-vdl
-fg
-vdl
-ll
-cd .config/nvim/
-mkdir snippets
-fg
-vr
-vdl
-cd 
-cd .cache/dein/
-ls
-cd repos/
-ls
-cd github.com/Shougo/
-l
-ls
-cd neosnippet-snippets/
-ls
-cd neosnippets/
-ls
-cd vim
-ls
-cat vital.snip 
-..
-ls
-jobs
-fg
-cd ~/share/
-ls
-mv php_functions.snip ~/.nvim/snippets/
-cd -
-ls
-view php.snip 
-ll
-cd ~/src/
-ls
-vi _test.php
-ls
-fg
-vi
-composer
-cd
-composer
-composer global require mkusher/padawan
-vi .bash_profile 
-source .bash_profile 
-vi _test.php
-nvim
-ls
-which nvim
-vi
-which vi
-emacs
-vi
-vim
-which vim
-cd /bin
-vi
-./vi
-source ~/.bash_profile 
-./vi
-cd
-nvim
-vi
-which nvim
-/bin/vi .bash_profile 
-source .bash_profile 
-heroku
-which ruby
-sudo yum install -y ruby
-heroku
-heroku version
-heroku login
-heroku --version
-npm
-wget https://cli-assets.heroku.com/branches/stable/heroku-linux-amd64.tar.gz
-tar xf heroku-linux-amd64.tar.gz 
-sed -i -e "/^export PATH$/i PATH=\$HOME/heroku/bin:\$PATH" ~/.bash_profile
-export PATH=$HOME/heroku-client/bin:$PATH
-heroku --version
-sudo yum upgrade heroku
-yum install git gcc openssl-devel readline-devel zlib-devel
-su
-vi
-which
-cd /bin/
-ls
-find / -name neovim
-find
-sd
-ls
-vi
-ls
-vi
-ls
-ll
-vi t.php
-vdl
-vi
-vi .bash_profile 
-source .bash_profile 
-vi
-padwan
-padawan
-composer
-php /path/to/composer.phar
-vi t.php
-vdl
-vr
-vi
-vdl
-vi t.php
-vdl
-vi test.py
-vdl
-cd .nvim/snippets/
-ls
-pwd
-fg
-cd
-cd .config/nvim/snippets/
-pwd
-fg
-vi t.php
-vdl
-vi t.php
-vdl
-vi t.php
-fg
-vi t.php
-vdl
-vi t.php
-cd 
-cd -
-ls
-mv php_functions.snip php.snip
-ls
-cd
-vi t.php
-vdl
-vi t.php
-vr
-fg
-vr
-color
-perl termcolor.pl 
-fg
-ls
-cd src/
-ls
-cd php/
-ls
-cd linebot/
-ls
-vi callback.php 
-perl ~/termcolor.pl 
-fg
-br
-eh
-br
-ee
-eh
-sbr
-eh
-br
-ee
-br
-eh
-ee
-br
-eh
-ee
-fg
-vd
-cd
-vi t.php
-ls
-rm t.php 
-ls
-cat input.php 
-rm input.php 
-ls
-vr
-vi t.php
-vdl
-vd
-ls
-color 
-vi
-vi py.py
-python py.py 
-fg
-which
-which python
-cd /usr/local/bin/
-ls
-vr
-which python3
-cd /usr/bin/
-ls python
-ls python*
-ll python*
-ln -s python3 python3.5
-ls
-ln -s python3.5 python3
-sudo ln -s python3.5 python3
-which python3
-ll python*
-:q
-fg
-cd
-ls
-vi py.py 
-vd
-vi t.php
-vd
-vl
-vdl
-make
-fg
-vd
-vdl
-fg
-vi
-/usr/bin/vi
-vd
-vi
-fg
-cd src/php/
-ls
-vi 
-vi test.php
-cd
-vi py.py 
-vd
-vr
-fg
-vr
-vdl
-vd
-vr
-vd
-vr
-vd
-vr
-cd src/php/linebot/
-ls
-heroku
-heroku app
-heroku apps
-vi LINEBotTiny.php 
-heroku addons:create fixie:tricycle
-heroku config:
-heroku help
-heroku config
-heroku apps:info
-heroku config:add CHANNEL_ACCESS_TOKEN=ugMy3PZZQA07woKADDoLjc8+hcdhrw1TN3O+sryY7Z83aBr+jqOkb+Dk+Jv0ZKfNYYofMgPptmiooEiX+IrVAyplUozPnijkhg+76FpZOHz9pvvxhivLHdMXksFLP6mrPa0OKJoKZ1TiuPYJYTSKXQdB04t89/1O/w1cDnyilFU=
-heroku config:add CHANNEL_SECRET=21c0499468a5c2618d1d13659dff8442
-heroku restart
-ls
-vi callback.php 
-heroku logs -t
-ls
-git add .
-git commit -m 'app commit'
-git push heroku master
-fg
-vi callback.php 
-heroku logs -t
-fg
-heroku log -t
-heroku logs -t
-fg
-heroku logs -t
-fg
-git add .
-git commit -m 'commit'
-git push heroku master
-heroku logs -t
-fg
-ls
-vi Procfile
-ls
-mkdir public
-ls
-mv callback.php LINEBotTiny.php public/
-ls
-cat README.md 
-rm -i README.md 
-ls
-composer install
-heroku ps
-heroku ps:scale web=1
-cd public/
-vi callback.php 
-git add .
-git commit -m 'c'
-git push heroku master
-ls
-..
-ls
-git add .
-git add . -a
-git
-git reset
-git add .
-git add . --all
-git commit -m 'c'
-ls
-cat composer.
-cat composer.json 
-git push heroku master
-vi Procfile 
-heroku ps
-heroku ps:scale web-1
-heroku ps:scale web=1
-heroku ps:scale web=0
-heroku ps
-heroku ps:scale web=1
-heroku ps
-vi public/LINEBotTiny.php 
-git add .
-ls
-git commit -m 'c'
-git push heroku master
-heroku ps
-vi Procfile 
-git add .
-git commit -m 'c'
-git push heroku master
-heroku ps
-heroku config
-curl http://welcome.usefixie.com --proxy http://fixie:e6zaR759WIlIBld@velodrome.usefixie.com:80
-cd public/
-vi callback.php 
-..
-git add .
-git commit -m 'c'
-git push heroku master
-heroku ps
-heroku logs --tail
-vi public/LINEBotTiny.php 
-..
-ls
-cd linebot/
-git add .
-git commit -m 'c'
-git push heroku master
-heroku logs -t
-vi public/LINEBotTiny.php 
-..
-git add .
-cd linebot/
-git add .
-git commit -m 'c'
-git push heroku master
-fg
-heroku logs -t
-heroku config
-vi public/LINEBotTiny.php 
-fg
-git add .
-git commit -m 'a'
-git push heroku master
-heroku logs -t
-vi public/LINEBotTiny.php 
-git add .
-git commit -m 'a'
-git push heroku master
-vi public/LINEBotTiny.php 
-git add .
-git commit -m 'ss'
-git push heroku master
-heroku logs -tail
-heroku ps
-heroku logs -t
-heroku config
-heroku restart
-heroku logs -t
-heroku config
-vi public/LINEBotTiny.php 
-git commit -m 'm'
-git add .
-git commit -a
-git commit -m 'mm'
-git push heroku master
-heroku logs -t
-vi public/LINEBotTiny.php 
-cd
-vi
-vd
-vdl
-vi src/php/linebot/public/LINEBotTiny.php 
-vdl
-vi t.php
-vdl
-ls
-cat t.php 
-rm t.php  -i
-ls
-cat py.py 
-ls
-rm py.py 
-ls
-cd www/
-ls
-vi login.php
-vdl
-fg
-ls
-vdl
-vr
-vdl
-ls
-vi login.php 
-vdl
-vi login.php 
-vdl
-vi login.php 
-vdl
-vi login.php 
-vdl
-vi login.php 
-vdl
-vi login.php 
-vdl
-vi login.php 
-vdl
-vi login.php 
-vdl
 vi login.php 
 vdl
 vi login.php 
@@ -1069,3 +489,512 @@ ls
 git init
 ga README.md 
 sbr
+ga README.md 
+gc -m "first commit"
+gc "first commit"
+git remote add origin https://github.com/appseed246/.dotfiles.git
+git push -u origin master
+ll
+ga .
+gc -m "add dotfiles and installer"
+gc "add dotfiles and installer"
+gl
+git push
+vi dotfilesInstaller.sh 
+./dotfilesInstaller.sh 
+fg
+vi dotfilesInstaller.sh 
+fg
+./dotfilesInstaller.sh 
+..
+ll
+vi
+cd .dotfiles/
+ls
+vi dotfilesInstaller.sh 
+ls
+..
+ls
+ll
+cd .vim
+ls
+cd ../.dotfiles 
+ls
+fg
+./dotfilesInstaller.sh 
+..
+ls
+ll
+vr 
+vi
+fg
+ls
+vi
+ls
+vdl 
+ls
+vr
+ls
+nvim 
+ls
+cd .dotfiles/
+ls
+..
+vi .vim/init.vim 
+vr
+ls
+cd .config/
+ls
+ls nvim/
+cd nvim/
+ls
+vi init.vim 
+..
+s
+ls
+rm nvim/ -rf
+vr
+..
+ls
+cd .dotfiles/
+ls
+ll
+ln -s nvim/ ~/.config/nvim
+vi
+ll nvim/
+cd ~/.config/
+ls
+ll
+cd -
+ls
+ln -sf ~/.dotfiles/nvim/ ~/.config/nvim 
+ln -sf ~/.dotfiles/nvim ~/.config/nvim 
+ln -sfid ~/.dotfiles/nvim ~/.config/nvim 
+
+ln -srf ~/.dotfiles/nvim ~/.config/nvim 
+cd ~/.config/
+ls
+rm -rf nvim 
+ls
+ln ~/.dotfiles/nvim/ .
+ln -s ~/.dotfiles/nvim/ .
+ls
+vi
+ls
+cd ~/.dotfiles/
+ls
+ll
+git push
+ls
+ga .
+gc "vimrc modified"
+cd nvim/
+ls
+vi init.vim 
+vi
+ls
+..
+ls
+ll
+cd .config/
+ll
+cd nvim/
+ls
+vi init.vim 
+cd
+vi
+vdl 
+vi
+vdl
+vi
+vdl
+vi
+cd
+ls
+ll
+vdl\
+vd
+sd
+ls
+vr
+:q
+exit
+vi
+cd
+cd .config/
+ls
+cd nvim/
+ls
+ll
+..
+ls
+ll
+which nvim
+cd /usr/bin/nvim 
+cd /usr/bin/
+ls *vi
+ls vi*
+./view 
+virtualenv
+cd 
+printenv
+printenv | X
+printenv | grep X
+vi .vim/init.vim 
+vi .dotfiles/nvim/init.vim 
+find / -name dein*
+sudo find / -name dein*
+cd .cache/dein/repos/github.com/Shougo/dein.vim/
+ls
+vi README.md 
+cd rplugin/
+ls
+cd python3/
+ls
+cd denite/source/dein.py 
+cd denite/source/
+ls
+ll
+vi dein.py 
+cd ..
+..
+ls
+cd test/
+ls
+vi toml.vim 
+vi git.vim 
+..
+ls
+cd autoload/
+ls
+vi dein
+vi dein.vim 
+cd unite/
+ls
+cd kinds/dein.vim 
+cd kinds/
+vi dein.vim 
+vi $MYVIMRC
+vi 
+cd
+ls
+cd .vimshell/
+ls
+ll
+..
+cd .vim/
+ls
+vi init.vim 
+sudo yum -y install epel-release
+sudo yum install yum-fastestmirror
+yum check-update
+sudo yum update
+curl -o /etc/yum.repos.d/dperson-neovim-epel-7.repo https://copr.fedorainfracloud.org/coprs/dperson/neovim/repo/epel-7/dperson-neovim-epel-7.repo 
+sudo curl -o /etc/yum.repos.d/dperson-neovim-epel-7.repo https://copr.fedorainfracloud.org/coprs/dperson/neovim/repo/epel-7/dperson-neovim-epel-7.repo 
+cd
+yum -y install neovim
+sudo yum -y install neovim
+cd /etc/yum.repos.d/dperson-neovim-epel-7.repo 
+cd /etc/yum.repos.d/
+ls
+sudo yum remove neovim
+nvim
+cd
+sudo yum -y install neovim
+nvim
+sudo yum remove neovim
+ls
+git clone https://github.com/neovim/neovim.git
+cd 
+ls
+cd neovim/
+ls
+git branch -a
+git tags
+git tag
+git checkout v0.2.0
+git log
+ls
+cd src/
+ls
+cd nvim/
+ls
+vi diff.c 
+..
+ls
+which nvim
+make
+..
+cd neovim/
+ls
+make
+cmake
+sudo make
+sudo yum install cmake
+make
+sudo yum install -y build-essensial
+sudo yum install -y libtool
+make
+sudo yum groupinstall "Development Tools"
+sudo yum install kernel-devel kernel-headers -y
+make
+sudo make install
+nvim
+which
+which nvim
+..
+cd neovim/
+rm -r build/
+rm -rf build/
+ls
+make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=$HOME/neovim"
+export PATH="$HOME/neovim/bin:$PATH"
+nvim
+vim
+vi
+nvim
+vi
+which nvim
+ls
+..
+ls
+rm -rf neovim/
+ls
+vi a.php 
+vr
+nvim --version
+pip
+pip freeze
+pip install neovim
+sudo pip install neovim
+python
+python3
+:q
+sudo pip3.5 install neovim
+gem
+gem install neovim
+sudo gem install neovim
+vi
+sudo pip install --user --upgrade neovim
+sudo pip3.5 install --user --upgrade neovim
+vi
+vdl
+vr
+vi
+vl
+vdl
+vi
+cd .config/
+ls
+cd nvim/
+ls
+vi dein.toml 
+vi
+vl
+vdl
+vi
+vl
+vdl
+vi
+vdl
+vi
+ls
+cd
+cd src/php/linebot/public/LINEBotTiny.php 
+vi src/php/linebot/public/LINEBotTiny.php 
+vd
+vi
+vi src/php/linebot/public/LINEBotTiny.php 
+vdl
+vi
+vdl
+vvd
+vd
+vdl
+vi src/php/linebot/public/LINEBotTiny.php 
+vdl
+vi src/php/linebot/public/LINEBotTiny.php 
+vdl
+vi src/php/linebot/public/LINEBotTiny.php 
+i
+vi src/php/linebot/public/LINEBotTiny.php 
+cd src/react/
+ls
+cd my-awesome-project/
+create-react-native-app start
+ls
+rm -rf start/
+npm start
+npm install connect serve-static
+sudo npm install connect serve-static
+node server
+ls
+vi App.
+vi App.js 
+npm -v
+node -v
+npm config get registry
+..
+rm -rf my-awesome-project/
+sudo rm -rf my-awesome-project/
+create-react-native-app testapp
+cd testapp/
+npm start
+npm test
+npm start
+npm outdated
+npm update
+npm outdated
+npm install -g npm-check-updates
+sudo npm install -g npm-check-updates
+ncu
+npm start
+vi package.json 
+ls
+cdv
+vi App.test.js 
+npm install react --save
+ls
+cd node_modules/
+ls
+ls react*
+ls react/
+vi README.md
+ls
+cd react/
+vi README.md 
+..
+ls
+vi App.test.js 
+vi App.js 
+..
+rm -rf testapp/
+create-react-native-app test
+cd test/
+npm start
+npm test
+rm node_modules/react-native/node_modules/fbjs/lib/__mocks__/ErrorUtils.js 
+npm test
+df
+fs
+du
+df
+cd /vagrant
+ls
+vi Vagrantfile 
+df -h
+npm test
+cd -
+npm test
+sudo find / -name Android
+sudo find / -name android
+npm test
+df -i
+du -sh * | sort -nr
+gg
+cd
+du -sh * | sort -nr
+cd /
+du -sh * | sort -nr
+sudo du -sh * | sort -nr
+cd usr/
+ls
+sudo du -sh * | sort -nr
+cd share/
+ls
+sudo du -sh * | sort -nr
+cd
+cd src/react/test/
+npm start --no-interactive
+npm ls react-native
+npm ls react-native-scripts
+npm ls expo
+npm expo
+npm run expo
+npm ls expo
+node -v
+npm -v
+npm install -g n
+sudo yum remove npm node
+npm
+node
+sudo yum install -y nodejs
+sudo yum install -y nodejs npm
+sudo yun install epel-release
+sudo yum install epel-release
+sudo yum install nodejs --enablerepo=epel
+npm start
+sudo npm install -g jsfmt
+sudo npm install -g sails
+npm start
+sudo npm install -g node-dev
+npm start
+sudo npm install -g pm2
+npm start
+sudo yarn global add create-react-native-app
+npm install expo -g
+sudo npm install expo -g
+npm 
+npm uninstall create-react-native-app --save-dev
+npm uninstall create-react-native-app --save
+create-react-native-app 
+npm rm create-react-native-app
+sudo npm rm create-react-native-app
+npm install -g react
+sudo npm install -g react
+..
+rm -rf test/
+ls
+create-react-native-app test
+npm completion
+npm completion >> ~/.bashrc 
+sbr
+npm 
+npm ls
+cd test/
+ls
+npm ls
+npm ls -g | grep react
+npm ls | grep react
+npm install react
+sudo npm install react
+npm ls expo
+npm install react@15.4.0 --save
+..
+rm -rf test/
+sudo npm install react -g
+npm ls expo
+npm ls expo -g
+sudo npm install react-native -g
+create-react-native-app test
+cd test/
+ls
+npm ls
+npm ls | grep react
+npm start
+npm ld expo
+npm ls expo
+npm install react@15.4.0 --save
+ll
+ls
+ll
+cd .expo/
+ls
+vi settings.json 
+..
+;s
+ls
+npm ls
+..
+cd react/
+rm -rf test/
+npm i -g create-react-native-app
+ls
+ll
+sudo vi npm-debug.log 
+sudo npm i -g create-react-native-app
+ls
+ll
+create-react-native-app test
+cd test/
+npm start

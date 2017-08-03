@@ -1,6 +1,5 @@
 " --------------- dein setting ---------------
 if !&compatible
-
   set nocompatible
 endif
 
@@ -47,8 +46,8 @@ let g:python3_host_prog = '/usr/bin/python3'
 
 set noswapfile
 nnoremap <Space> <Nop>
-let mapleader = "\<Space>"
-" let mapleader = ','
+" let mapleader = "\<Space>"
+let mapleader = ','
 
 set encoding=utf8
 set fileencoding=utf8
@@ -116,7 +115,7 @@ nnoremap <silent> <leader>v :split ~/.vim/init.vim<CR>
 nnoremap <silent> <leader>d :split ~/.vim/dein.toml<CR>
 nnoremap <silent> <leader>l :split ~/.vim/dein_lazy.toml<CR>
 nnoremap <silent> <leader>r :QuickRun<CR>
-nnoremap <silent> <leader><c-o> :only!<CR>
+nnoremap <silent> <leader>o :only!<CR>
 
 " split
 nnoremap <silent> sv :vsplit<ENTER>
