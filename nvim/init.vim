@@ -117,6 +117,7 @@ nnoremap <silent> <leader>d :split ~/.dotfiles/dein.toml<CR>
 nnoremap <silent> <leader>l :split ~/.dotfiles/dein_lazy.toml<CR>
 nnoremap <silent> <leader>r :QuickRun<CR>
 nnoremap <silent> <leader>o :only!<CR>
+nnoremap <leader><C-r> :QuickRun -args<Space>
 
 " split
 nnoremap <silent> sv :vsplit<ENTER>
