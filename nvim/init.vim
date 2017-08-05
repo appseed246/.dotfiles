@@ -94,6 +94,7 @@ set ruler "カーソルの現在位置を右下に表示
 set showmode "現在のモードを表示
 set showcmd "打ったコマンドを表示
 set wildmenu " コマンドモードの補完
+set laststatus=2
 set noshowmode
 
 
@@ -111,11 +112,12 @@ nnoremap <Tab> >>
 nnoremap <S-Tab> <<
 nnoremap <silent> <C-c><C-c> :nohlsearch<ENTER>
 nnoremap <silent> <ESC><ESC> :nohlsearch<ENTER>
-nnoremap <silent> <leader>v :split ~/.vim/init.vim<CR>
-nnoremap <silent> <leader>d :split ~/.vim/dein.toml<CR>
-nnoremap <silent> <leader>l :split ~/.vim/dein_lazy.toml<CR>
+nnoremap <silent> <leader>v :split ~/.dotfiles/init.vim<CR>
+nnoremap <silent> <leader>d :split ~/.dotfiles/dein.toml<CR>
+nnoremap <silent> <leader>l :split ~/.dotfiles/dein_lazy.toml<CR>
 nnoremap <silent> <leader>r :QuickRun<CR>
 nnoremap <silent> <leader>o :only!<CR>
+nnoremap <leader><C-r> :QuickRun -args<Space>
 
 " split
 nnoremap <silent> sv :vsplit<ENTER>

@@ -100,3 +100,12 @@ hook_source = '''
     \   'indentation': '    '
     \}
 '''
+[[plugins]]
+repo = 'shima-529/C-prototype.vim'
+on_ft = ['c', 'cpp']
+hook_add = '''
+    augroup c_proto
+        autocmd! BufWritePre,InsertLeave *.c,*.cpp silent! :CPrototypeMake
+    augroup END
+    let g:c_prototype_no_default_keymappings = 1
+'''
