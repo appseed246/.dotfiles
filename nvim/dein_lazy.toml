@@ -61,7 +61,7 @@ repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
 repo = 'Shougo/unite.vim'
-if = '!has("nvim")'
+# if = '!has("nvim")'
 on_cmd = 'Unite'
 depends = 'neomru.vim'
 
@@ -110,3 +110,17 @@ hook_add = '''
     augroup END
     let g:c_prototype_no_default_keymappings = 1
 '''
+[[plugins]]
+repo = 'kana/vim-submode'
+on_event = ['VimEnter']
+hook_post_source = '''
+    call submode#enter_with('bufmove', 'n', '', 's>', '<C-w>>')
+    call submode#enter_with('bufmove', 'n', '', 's<', '<C-w><')
+    call submode#enter_with('bufmove', 'n', '', 's+', '<C-w>+')
+    call submode#enter_with('bufmove', 'n', '', 's-', '<C-w>-')
+    call submode#map('bufmove', 'n', '', '>', '<C-w>>')
+    call submode#map('bufmove', 'n', '', '<', '<C-w><')
+    call submode#map('bufmove', 'n', '', '+', '<C-w>+')
+    call submode#map('bufmove', 'n', '', '-', '<C-w>-')
+'''
+
