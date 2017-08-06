@@ -10,7 +10,7 @@ fi
 
 # User specific aliases and functions
 
-if [ -e /bin/nvim ]; then
+if [ -e /bin/nvim ] || [ -e /usr/local/bin/nvim ]; then
     alias vi='nvim'
     alias view='nvim -R'
 fi
