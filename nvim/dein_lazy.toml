@@ -34,7 +34,7 @@ hook_source = '''
 
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
-on_event = 'InsertCharPre'
+# on_event = 'InsertCharPre'
 on_ft = ['snippet']
 depends = ['neosnippet-snippets', 'context_filetype.vim']
 hook_source = '''
@@ -69,6 +69,7 @@ depends = 'neomru.vim'
 repo = 'Shougo/Denite.nvim'
 if = 'has("nvim")'
 on_cmd = 'Denite'
+depends = 'neomru.vim'
 hook_add= '''
     nnoremap <Space>p :Denite file_rec<CR>
     nnoremap <Space>u :Denite -mode=normal file_mru<CR>

@@ -169,6 +169,22 @@ cnoremap <C-p>          <Up>
 " <C-g>: Exit.
 cnoremap <C-g>          <C-c>
 
+" neovim only
+
+" neovim terminal mapping
+if has('nvim')
+    " 新しいタブでターミナルを起動
+    " nnoremap @t :tabe<CR>:terminal<CR>
+    " 分割ウィンドウでターミナル起動
+    nnoremap @t :split<CR>:terminal<CR>
+    " Ctrl + q でターミナルを終了
+    tnoremap <C-q> <C-\><C-n>:q<CR>
+    " ESCでターミナルモードからノーマルモードへ
+    tnoremap <ESC> <C-\><C-n>
+    " ターミナルモードでのタブ移動
+    " tnoremap <C-l> <C-\><C-n>gt
+    " tnoremap <C-h> <C-\><C-n>gT
+endif
 
 
 " -------------------- functions ---------------------
