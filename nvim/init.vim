@@ -112,9 +112,9 @@ nnoremap <Tab> >>
 nnoremap <S-Tab> <<
 nnoremap <silent> <C-c><C-c> :nohlsearch<ENTER>
 nnoremap <silent> <ESC><ESC> :nohlsearch<ENTER>
-nnoremap <silent> <leader>v :split ~/.dotfiles/init.vim<CR>
-nnoremap <silent> <leader>d :split ~/.dotfiles/dein.toml<CR>
-nnoremap <silent> <leader>l :split ~/.dotfiles/dein_lazy.toml<CR>
+nnoremap <silent> <leader>v :split ~/.dotfiles/nvim/init.vim<CR>
+nnoremap <silent> <leader>d :split ~/.dotfiles/nvim/dein.toml<CR>
+nnoremap <silent> <leader>l :split ~/.dotfiles/nvim/dein_lazy.toml<CR>
 nnoremap <silent> <leader>r :QuickRun<CR>
 nnoremap <silent> <leader>o :only!<CR>
 nnoremap <leader><C-r> :QuickRun -args<Space>
@@ -205,9 +205,9 @@ function! IndentBraces()
 
     " カーソルの位置の括弧が隣接している場合
     if nowletter == "}" && beforeletter == "{"
-        "return "\n\n\<UP>\<RIGHT>\<TAB>"
-        return "\n\n\<UP>\<TAB>"
-        "return "\n\t\n\<UP>\<RIGHT>"
+        " return "\n\n\<UP>\<RIGHT>\<TAB>"
+        " return "\n\n\<UP>\<TAB>"
+        return "\n\t\n\<UP>\<RIGHT>"
     else
         return "\n"
     endif
