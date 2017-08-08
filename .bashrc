@@ -29,6 +29,9 @@ alias ga='git add --all'
 alias gc='git commit -m'
 alias gs='git status'
 alias gl='git log --graph'
+
+# training server only
+alias g='./g.sh'
 ###-begin-npm-completion-###
 #
 # npm command completion script
