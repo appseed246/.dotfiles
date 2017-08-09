@@ -80,7 +80,7 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set autoindent
-set smartindent
+" set smartindent
 set shiftwidth=4
 
 " search
@@ -206,8 +206,8 @@ function! IndentBraces()
     " カーソルの位置の括弧が隣接している場合
     if nowletter == "}" && beforeletter == "{"
         " return "\n\n\<UP>\<RIGHT>\<TAB>"
-        " return "\n\n\<UP>\<TAB>"
-        return "\n\t\n\<UP>\<RIGHT>"
+        return "\n\n\<UP>\<TAB>"
+        " return "\n\t\n\<UP>\<RIGHT>"
     else
         return "\n"
     endif
