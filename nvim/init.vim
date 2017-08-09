@@ -18,8 +18,8 @@ if !isdirectory(s:dein_repo_dir)
 endif
 let &runtimepath = s:dein_repo_dir .",". &runtimepath
 " プラグイン読み込み＆キャッシュ作成
-let s:toml_file = fnamemodify(expand('<sfile>'), ':h').'/dein.toml'
-let s:lazy_file = fnamemodify(expand('<sfile>'), ':h').'/dein_lazy.toml'
+let s:toml_file = '~/.dotfiles/nvim//dein.toml'
+let s:lazy_file = '~/.dotfiles/nvim//dein_lazy.toml'
 
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
@@ -41,8 +41,10 @@ endif
 set runtimepath+=~/.vim
 
 " Neovim's python Provider
-let g:python_host_prog = '/usr/bin/python'
-let g:python3_host_prog = '/usr/bin/python3'
+" let g:python_host_prog = '/usr/bin/python'
+" let g:python3_host_prog = '/usr/bin/python3'
+let g:python_host_prog = system('(type pyenv &>/dev/null && echo -n "$(pyenv root)/versions/$(pyenv global | grep python2)/bin/python") || echo -n $(which python2)')
+let g:python3_host_prog = system('(type pyenv &>/dev/null && echo -n "$(pyenv root)/versions/$(pyenv global | grep python3)/bin/python") || echo -n $(which python3)')
 
 set noswapfile
 nnoremap <Space> <Nop>

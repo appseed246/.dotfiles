@@ -15,7 +15,7 @@ if [ -e /bin/nvim ] || [ -e /usr/local/bin/nvim ]; then
     alias view='nvim -R'
 fi
 
-alias ll='ls -la'
+alias ll='ls -lA'
 alias sbr='source ~/.bashrc'
 alias vr='vi ~/.vimrc'
 alias vd='vi ~/.dotfiles/nvim/dein.toml'
